@@ -1,0 +1,333 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion movil</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+#Pagina3 div div ul {
+	text-align: left;
+}
+#Pagina4 div div h2 {
+	text-align: left;
+}
+#Pagina1 div h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#Pagina2 div h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#Pagina2 div div h2 {
+	font-family: "Comic Sans MS", cursive;
+}
+#Pagina3 div h1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#Pagina3 div div ul li {
+	font-family: "Comic Sans MS", cursive;
+}
+#Pagina3 div div ul li {
+	text-align: left;
+}
+#Pagina3 div div ul li {
+	text-align: center;
+}
+#Pagina5 div div h2 strong {
+	text-align: left;
+}
+#Pagina5 div div h2 strong {
+	text-align: left;
+}
+#Pagina5 div div h2 strong {
+	text-align: justify;
+}
+#Pagina5 div div h2 strong {
+	font-family: "Comic Sans MS", cursive;
+}
+#Pagina5 div div h2 strong {
+	font-family: "Comic Sans MS", cursive;
+}
+.a {
+	font-family: "Comic Sans MS", cursive;
+}
+#Pagina5 div div h2 {
+	font-family: "Comic Sans MS", cursive;
+}
+</style>
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/definicion2.jpg','imagenes/historia2.jpg','imagenes/gama2.jpg','imagenes/movistar.jpg','imagenes/nokia.jpg')">
+
+ <div data-role="page" id="principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar"  data-back-btn-theme="b">
+   <h1>TELEFONÍA CELULAR</h1>
+   </div>
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+        <div>
+        </div>
+        <div>
+        </div>
+      </div>
+   </div>
+      <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>¿Que es un telefono celular?</h2>
+             <p>Definición</p>
+           </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Historia del telefono celular</h2>
+             <p>Su historia</p>
+           </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Clasificación</h2>
+             <p>Según su gama</p>
+           </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Compañias en México</h2>
+             <p>Que manejan el servicio de teléfono celular</p>
+           </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Teléfonos del futuro</h2>
+             <p>Posibles teléfonos del futuro</p>
+           </a>
+       </li>
+       </ul>
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/t1.jpg" alt="t1" title="t1" id="wows1_0"/></li>
+		<li><img src="data1/images/t4.jpg" alt="t4" title="t4" id="wows1_1"/></li>
+		<li><img src="data1/images/t2.jpg" alt="t2" title="t2" id="wows1_2"/></li>
+		<li><img src="data1/images/t3.jpg" alt="t3" title="t3" id="wows1_3"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/t6.jpg" alt="http://wowslider.net/" title="t6" id="wows1_4"/></a></li>
+		<li><img src="data1/images/t7.jpg" alt="t7" title="t7" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="t1"><span><img src="data1/tooltips/t1.jpg" alt="t1"/>1</span></a>
+		<a href="#" title="t4"><span><img src="data1/tooltips/t4.jpg" alt="t4"/>2</span></a>
+		<a href="#" title="t2"><span><img src="data1/tooltips/t2.jpg" alt="t2"/>3</span></a>
+		<a href="#" title="t3"><span><img src="data1/tooltips/t3.jpg" alt="t3"/>4</span></a>
+		<a href="#" title="t6"><span><img src="data1/tooltips/t6.jpg" alt="t6"/>5</span></a>
+		<a href="#" title="t7"><span><img src="data1/tooltips/t7.jpg" alt="t7"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+       <div>
+         <img src="imagenes/logo.png" width="46" height="46">
+       </div>
+       <div>
+         <h4>Aplicacion Dos</h4>
+         <h4>Elvira Muñoz Zambrano</h4>
+       </div>
+     </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>¿Qué es un teléfono celular?</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+           <h2><strong>Un teléfono celular</strong> es un dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. Se denomina celular debido a las antenas repetidoras que conforman la red, cada una de las cuales es una célula, si bien existen redes telefónicas móviles satelitales. Su principal característica es su portabilidad, que permite comunicarse desde casi cualquier lugar. Aunque su principal función es la comunicación de voz, como el teléfono convencional, su rápido desarrollo ha incorporado otras funciones como son cámara fotográfica, agenda, acceso a internet, reproducción de video e incluso GPS y reproductor mp3.</h2>
+           <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Telefonos movil','','imagenes/definicion2.jpg',1)"><img src="imagenes/definicion1.jpg" width="90" height="90" id="Telefonos movil"></a></p>
+           <div data-role="collapsible" data-content-theme="false">
+             <h1>Ver mas...</h1>
+             <div>
+               <p>Moviles:</p>
+               <br>
+             </div>
+             <div> <img src="imagenes/definicion3.jpg" alt="colapsable" width="50%" height="50%"> </div>
+           </div>
+           <p>&nbsp;</p>
+         </div>
+       </div>
+       <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4>Aplicacion Dos, EMZ</h4>
+       </div>
+     </div>
+    
+    
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Historia del teléfono celular</h1>
+       </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2>El teléfono celular se remonta a los inicios de la Segunda Guerra Mundial, donde ya se veía que era necesaria la comunicacióna distancia, es por eso que la compañía Motorola creó un equipo llamado Handie Talkie H12-16, que es un equipo que permite el contacto con las tropas vía ondas de radio que en ese tiempo no superaban más de 600 Khz. </h2>
+          <h2>Fue sólo cuestión de tiempo para que las dos tecnologías de Tesla y Marconi se unieran y dieran a la luz la comunicación mediante radio-teléfonos: Martín Cooper, pionero y considerado como el padre de la telefonía celular, fabricó el primer radio teléfono entre 1970 y 1973, en Estados Unidos, y en 1979 aparecieron los primeros sistemas a la venta en Tokio (Japón), fabricados por la Compañía NTT. Los países europeos no se quedaron atrás y en 1981 se introdujo en Escandinava un sistema similar a AMPS (Advanced Mobile Phone System). </h2>
+          <h2>En 1985 se comenzaron a perfeccionar y amoldar las características de este nuevo sistema revolucionario ya que permitía comunicarse a distancia. Fue así que en los años 1980 se llegó a crear un equipo que ocupaba recursos similares a los Handie Talkie pero que iba destinado a personas que por lo general eran grandes empresarios y debían estar comunicados, es ahí donde se crea el teléfono móvil y marca un punto en la historia de los componentes inalámbricos ya que con este equipo podría hablar a cualquier hora y en cualquier lugar.</h2>
+          <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Historia del telefono','','imagenes/historia2.jpg',1)"><img src="imagenes/historia1.jpg" width="90" height="90" id="Historia del telefono"></a></p>
+          <div data-role="collapsible" data-content-theme="false">
+            <h1>Ver mas...</h1>
+            <div>
+              <p>Historia:</p>
+              <br>
+            </div>
+            <div> <img src="imagenes/historia3.jpg" alt="colapsable2" width="50%" height="50%"> </div>
+          </div>
+          <p>&nbsp;</p>
+         </div>
+       </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Dos, EMZ</h4>
+        </div>
+</div>
+       
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Clasificación</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <ul>
+             <li>
+               <h2><strong>Alta gama</strong>: En este nivel encajan los smartphones que estén dotados con casi todos los elementos más evolucionados de la telefonía móvil que citamos anteriormente, pero posiblemente por el sistema operativo u otra causa no cumple de manera completa con cada uno de esos requisitos. Por ejemplo, el gigantesco Samsung Galaxy Mega 6.3 cuenta con características notables, pero llegó con procesador de doble núcleo y memoria RAM de 1.5GB, cuando en el mercado existen teléfonos celulares con cuatro núcleos y 2GB de RAM.</h2>
+             </li>
+             <li>
+               <h2><strong>Media gama</strong>:Los smartphones de media gama se caracterizan por tener pantallas de calidad, pero de menor tamaño, resolución y profundidad de pixeles por pulgada; en la mayoría de los casos funcionan con una versión anterior a la más actual de su sistema operativo; los procesadores no tienen la potencia de los que encontramos en gamas superiores, y las cámaras y fotográficas generalmente cuentan con menos cantidad de megapíxeles. </h2>
+             </li>
+            <li>
+             <h2><strong>Baja gama</strong>:En esta categoría distribuiremos los celulares inteligentes con plataformas que no dan soporte a muchas utilidades que tienen los teléfonos de otras gamas. Sus pantallas son de escasas dimensiones y resolución, poca memoria RAM y mínima capacidad de almacenamiento interno, cámaras VGA (no llegan al Megapíxel), menores herramientas, acceso a redes y aplicaciones, entre otros aspectos. Se diferencian de los teléfonos básicos (no inteligentes), por el hecho de permitir funcionalidades que van más allá de llamar y recibir llamadas.</h2>
+             <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Gamas','','imagenes/gama2.jpg',1)"><img src="imagenes/gama1.jpg" width="90" height="95" id="Gamas"></a></p>
+             <div data-role="collapsible" data-content-theme="false">
+               <h1>Ver mas...</h1>
+               <div>
+                 <p>Clasificacion:</p>
+                 <br>
+               </div>
+               <div> <img src="imagenes/gama3.jpg" alt="colapsable3" width="50%" height="50%"> </div>
+             </div>
+             <p>&nbsp;</p>
+            </li>
+           </ul></div>
+  </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Dos, EMZ</h4>
+        </div>
+</div>
+      
+      
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Compañias telèfonicas</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+           <ul>
+             <li>
+               <h2><a href="http://www.telcel.com/" title="Pagina de Telcel">Telcel</a></h2>
+             </li>
+             <li>
+               <h2><a href="https://www.movistar.com/es/" title="Pagina de Movistar">Movistar</a></h2>
+             </li>
+             <li>
+               <h2><a href="https://www.att.com.mx/" title="Pagina Iusacell">Iusacell</a></h2>
+             </li>
+             <li>
+               <h2><a href="https://wsservice.nextelinternational.com/APITwoWay/jsp/inicio.jsp" title="Pagina de Nextel">Nextel</a></h2>
+             </li>
+             <li>
+               <h2><a href="https://www.unefon.com.mx/" title="Pagina de Unefon">Unefon</a></h2>
+               <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Compañias','','imagenes/movistar.jpg',1)"><img src="imagenes/telcel.jpg" width="90" height="95" id="Compañias"></a></p>
+               <div data-role="collapsible" data-content-theme="false">
+                 <h1>Ver mas...</h1>
+                 <div>
+                   <p>Compañias:</p>
+                   <br>
+                 </div>
+                 <div> <img src="imagenes/iusacell.png" alt="colapsable3" width="50%" height="50%"> </div>
+               </div>
+             </li>
+           </ul>
+          </div>
+       </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion Dos, EMZ</h4>
+        </div>
+</div>
+        
+        
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Telèfonos del futuro</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+          <h2><strong>NOKIA MORPH 4</strong>: Este celular es como salido de una película futurista. Lo más sorprendente es su increíble capacidad de moldearse en diferentes formas. Entre otro de sus atractivos destaca además su gran panel para ver videos. </h2>
+          <h2><strong>BLACK BOX</strong>: Modelo que pertenece a BenQ-Siemens y que ha sido catalogado de impresionante, porque incorpora <strong>tecnología touch</strong>, como medio de navegación, tanto en la panatalla como en todo el cuerpo del dispositivo. </h2>
+          <h2><strong>NOKIA 888</strong>: <span class="a">Está diseñado para otorgar la máxima libertad y diversión, ya que</span> <strong>puede cambiar de forma según las necesidades del usuario</strong>, gracias a su batería líquida. Puedes llevarlo como pulsera, enrollado en el bolsillo o como prefieras. Cuando recibe una llamada adopta la forma de los teléfonos tradicionales.</h2>
+          <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Telefonos del futuro','','imagenes/nokia.jpg',1)"><img src="imagenes/black.jpg" width="80" height="80" id="Telefonos del futuro"></a></p>
+          <div data-role="collapsible" data-content-theme="false">
+            <h1>Ver mas...</h1>
+            <div>
+              <p>Celulares del futuro:</p>
+              <br>
+            </div>
+            <div> <img src="imagenes/nokia888.jpg" alt="colapsable4" width="50%" height="50%"> </div>
+          </div>
+         </div>
+          
+  </div>
+        <div data-role="footer" data-theme="b" data-position="fixed">
+          <h4>Aplicacion Dos, EMZ</h4>
+        </div>
+       </div>
+       
+       
+       
+                                                      
+                   
+</body>
+</html>
